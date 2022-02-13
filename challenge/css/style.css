@@ -97,6 +97,10 @@ a {
     margin-top: var(--margin-tp-lg);
 }
 
+.home .image {
+    padding: 0rem 9%;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -135,6 +139,60 @@ a {
     background-color: var(--white-color);
 }
 
-.home .image {
-    padding: 0rem 9%;
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--black-color);
+    padding-bottom: 3rem;
+    padding-top: 6rem;
+}
+
+.heading span {
+    font-size: 3.5rem;
+    color: var(--green-color);
+    padding: var(--margin-tp-md);
+    background-color: var(--bg);
+    border-radius: var(--margin-tp-md);
+}
+
+.about-us {
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.about-us .row {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.about-us .row .image {
+    flex: 1 1 45rem;
+    padding: 2rem;
+
+}
+
+.about-us .row .image img{
+    width: 80%;
+}
+
+.about-us .row .content {
+    width: 50%;
+}
+
+.about-us .content h1{
+    font-size: 2.8rem;
+    color:var(--black-color);
+    line-height: 1.8;
+}
+
+
+.about-us .row p {
+    font-size: 1.7rem;
+    color: var(--black-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
 }
