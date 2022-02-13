@@ -172,6 +172,7 @@ a {
 .about-us .row .image {
     flex: 1 1 45rem;
     padding: 2rem;
+    border-radius: var(--margin-tp-lg);
 
 }
 
@@ -189,10 +190,42 @@ a {
     line-height: 1.8;
 }
 
-
 .about-us .row p {
     font-size: 1.7rem;
     color: var(--black-color);
     font-size: 1.5rem;
     line-height: 1.8;
+}
+
+.about-us .row .icons-container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.row .icons {
+    background-color: var(--bg);
+    padding: 2rem;
+    margin-top: 2rem;
+    display: inline;
+    text-align: center;
+    border-radius: var(--margin-tp-md);
+    box-shadow: var(--box-shadow);
+}
+
+.row .icons i{
+    border-radius: 50%;
+    background: var(--bg);
+    color:var(--green-color);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.row .icons h3{
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
 }
